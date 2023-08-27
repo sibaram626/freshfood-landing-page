@@ -1,0 +1,77 @@
+body {
+  font-family: sans-serif;
+  margin: 0; /* Remove default body margin */
+}
+
+header {
+  background-color: #cb202d; /* Zomato header background color */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0; /* Remove default h1 margin */
+}
+
+main {
+  padding: 66px;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #fff; /* White background for the form */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for the form */
+}
+form{
+  border: 2px solid rgb(211, 70, 77);
+  align-items: center;
+  padding-right: 42px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Rounded corners for input fields */
+}
+
+input[type="email"],
+input[type="password"] {
+  outline: none; /* Remove the default blue outline on focus */
+}
+
+input[type="submit"] {
+  background-color: #cb202d; /* Zomato red color for the submit button */
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 522px;
+  cursor: pointer;
+  border-radius: 4px; /* Rounded corners for the submit button */
+  transition: background-color 0.3s ease; /* Add a smooth transition on hover */
+}
+
+input[type="submit"]:hover {
+  background-color: #a51721; /* Darker red color on hover */
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #cb202d; /* Zomato footer background color */
+  color: #fff;
+  border-radius: 4px; /* Rounded corners for the footer */
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

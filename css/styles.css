@@ -13,7 +13,7 @@ body{
 /* Hero section */
 
 .hero__section{
-	background-image: url('./Images/heroSectionBackground.png');
+	background-image: url('../Images/food.jpg');
 	height: 400px;
 	background-size: cover;
 	background-position: center;
@@ -65,8 +65,12 @@ body{
 }
 
 .hero__section_logo{
-	height: 116px;
-    width: 388px;
+	height: 101px;
+    width: 522px;
+    color: white;
+    font-size: 97px;
+
+
 }
 
 
@@ -267,19 +271,19 @@ body{
 } 
 
 .card1{
-	background-image: url('./Images/collection1.jpg');
+	background-image: url('../Images/collection1.jpg');
 }
 
 .card2{
-	background-image: url('./Images/collection2.jpg');
+	background-image: url('../Images/collection2.jpg');
 }
 
 .card3{
-	background-image: url('./Images/collection3.jpg');
+	background-image: url('../Images/collection3.jpg');
 }
 
 .card4{
-	background-image: url('./Images/collection4.jpg');
+	background-image: url('../Images/collection4.jpg');
 }
 
 .overlay{
