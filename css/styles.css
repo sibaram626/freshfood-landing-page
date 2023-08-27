@@ -1,20 +1,25 @@
+
+	
+
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
-
-body{
-	background: rgb(255,251,247);
-	margin-bottom: -32px;
+@media screen {
+	
+	body{
+		background: rgb(255,251,247);
+		margin-bottom: -32px;
+	}
 }
 
 /* Hero section */
 
 .hero__section{
 	background-image: url('../Images/food.jpg');
-	height: 400px;
+	height: 470px;
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -63,15 +68,20 @@ body{
 	gap: 25px;
 	height: calc(400px - 40px);
 }
-
 .hero__section_logo{
-	height: 101px;
-    width: 522px;
-    color: white;
-    font-size: 97px;
-
-
+	margin-block-end: -18px;
 }
+
+
+	
+
+
+	.hero__section_logo{
+		height: 101px;
+		width: 434px;
+		font-size: 10px;
+	}
+
 
 
 .hero__section_heading{
